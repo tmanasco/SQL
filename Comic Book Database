@@ -1,0 +1,20 @@
+CREATE TABLE ComicBooks (id INTEGER PRIMARY KEY, name TEXT, price INTEGER, pages INTEGER);
+
+INSERT INTO ComicBooks VALUES (1,"Ironman", 12, 200);
+INSERT INTO ComicBooks VALUES (2,"Batman", 8, 150);
+INSERT INTO ComicBooks VALUES (3,"Daredevil",10, 100);
+INSERT INTO ComicBooks VALUES (4,"Captain America",8, 100);
+INSERT INTO ComicBooks VALUES (5,"Superman",12, 200);
+INSERT INTO ComicBooks VALUES (6,"Green Arrow",10, 150);
+INSERT INTO ComicBooks VALUES (7,"The Hulk",8, 200);
+INSERT INTO ComicBooks VALUES (8,"Wonder Woman",8, 100);
+INSERT INTO ComicBooks VALUES (9,"Nightwing",12, 150);
+INSERT INTO ComicBooks VALUES (10,"Hawkeye",8, 150);
+INSERT INTO ComicBooks VALUES (11,"Scarlett Witch",9, 200);
+INSERT INTO ComicBooks VALUES (12,"Vision",7, 100);
+INSERT INTO ComicBooks VALUES (13,"Wolverine",9, 250);
+INSERT INTO ComicBooks VALUES (14,"Deadpool",9, 250);
+INSERT INTO ComicBooks VALUES (15,"Electra",7, 100);
+INSERT INTO ComicBooks VALUES (16,"Punisher",7, 100);
+
+SELECT * FROM ComicBooks WHERE price ORDER BY price desc;
